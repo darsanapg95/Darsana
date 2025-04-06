@@ -1,0 +1,159 @@
+.aboutContainter {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.aboutMain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+.aboutText {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.aboutContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.aboutText1 {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.aboutText2 {
+    color: #97afd5;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.heading {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.techText {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.personal {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.personalInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.flexCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    margin-top: 50px;
+    min-width: 260px;
+    min-height: 50px;
+    background-color: #5b8e1e;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+
+    &:hover {
+        background-color: white;
+        color: #5b8e1e;
+        border: none;
+    }
+}
+
+.button:focus {
+    outline: none;
+    border: none;
+}
+
+.techno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: column;
+}
+.skillname{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+  
+  .image {
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    animation: float 2s ease-in-out infinite;
+  }
+  .img{
+    margin-top: 80px;
+  }

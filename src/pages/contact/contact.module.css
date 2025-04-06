@@ -1,0 +1,153 @@
+.contactContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.text {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contactCard {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.contactInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mail_phone {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.mail_phone_text {
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.talk {
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+.desc {
+    font-size: 14px;
+    color: #97afd5;
+    font-weight: 300;
+    max-width: 300px;
+    word-wrap: break-word;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+.inner_input {
+    width: 400px;
+    height: 35px;
+    border-radius: 15px;
+    color: #97afd5;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    padding: 5px;
+    transition: background-color 0.3s, ;
+
+    &::placeholder {
+        color: #97afd5;
+        font-family: Roboto;
+        font-size: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+
+.inner_input:focus {
+    background-color: white;
+    border: none;
+    outline: none;
+}
+
+.textArea {
+    width: 400px;
+    height: 60px;
+    border-radius: 15px;
+    color: #97afd5;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    padding: 5px;
+    transition: background-color 0.3s, ;
+
+    &::placeholder {
+        color: #97afd5;
+        font-family: Roboto;
+        font-size: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+
+.textArea:focus {
+    background-color: white;
+    border: none;
+    outline: none;
+}
+
+.button {
+    min-width: 260px;
+    min-height: 50px;
+    background-color: #5b8e1e;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+
+    &:hover {
+        background-color: white;
+        color: #5b8e1e;
+        border: none;
+    }
+}
+
+.button:focus {
+    outline: none;
+    border: none;
+}
+
+.image {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+}

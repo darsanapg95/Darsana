@@ -1,0 +1,16 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+    animation: moveBackground 20s linear infinite;
+}
+
+@keyframes moveBackground {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 100% 100%;
+    }
+}
