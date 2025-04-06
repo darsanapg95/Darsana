@@ -5,7 +5,7 @@ import phone from '../../assets/phone.svg';
 
 const Contact: React.FC = () => {
     return (
-        <Flex className={classes.contactContainer}>
+        <Flex id='contact' className={classes.contactContainer}>
             <Flex className={classes.heading}>
                 <Text className={classes.text}>GET IN TOUCH</Text>
             </Flex>

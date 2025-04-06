@@ -45,7 +45,7 @@ const Portfolio: React.FC = () => {
     const [selectedProject, setSelectedProject] = useState<{ title: string; details: string, image: string, role: string, tech: string } | null>(null);
 
     return (
-        <Flex className={classes.projectContainer} direction="column">
+        <Flex id='portfolio' className={classes.projectContainer} direction="column">
             <Text className={classes.projectHeading}>MY PORTFOLIO</Text>
             <Flex className={classes.projectList}>
                 {projects.map((project) => (

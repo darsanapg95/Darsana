@@ -7,7 +7,7 @@ import cv from "../../assets/Darsana P G - Resume.pdf"
 
 const About: React.FC = () => {
     return (
-        <Flex className={classes.aboutContainter}>
+        <Flex id='about' className={classes.aboutContainter}>
             <Text className={classes.aboutText}>ABOUT ME</Text>
             <Flex className={classes.aboutMain}>
                 <Flex className={classes.aboutContent}>
